@@ -130,8 +130,8 @@ curl http://arbi-flask.duckdns.org/api/info
 ## Screenshots
 
 ### Build docker image locally and push
-![plot](./screenshots/screenshot_build%20docker.png)
-![plot](./screenshots/screenshot_push%20docker.png)
+![screenshot](./screenshots/screenshot_build%20docker.png)
+![screenchot](./screenshots/screenshot_push%20docker.png)
 
 ### CI/CD pipeline jobs completed
 ![screenshot](./screenshots/screenshot_cicd%20pipeline.png)
