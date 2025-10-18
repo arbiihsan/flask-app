@@ -8,7 +8,7 @@ metadata:
     kubernetes.io/ingress.class: "nginx"
 spec:
   rules:
-  - host: flaskapp.example.com
+  - host: arbi-flask.duckdns.org
     http:
       paths:
       - path: /

@@ -73,7 +73,7 @@ kubectl get nodes
 
 ### Deploy to Kubernetes (Manual)
 
-#### Option 1: ClusterIP Service (Internal Access)
+#### ClusterIP Service (Internal Access)
 
 ```bash
 kubectl apply -f deployment.yaml
@@ -87,17 +87,7 @@ kubectl get pods
 kubectl get services
 ```
 
-#### Option 2: LoadBalancer Service (External Access)
-
-```bash
-kubectl apply -f deployment.yaml
-
-kubectl apply -f service-loadbalancer.yaml
-
-kubectl get services flask-app-loadbalancer
-```
-
-#### Option 3: Ingress (Domain Access)
+#### Ingress (Domain Access)
 
 install NGINX Ingress Controller on DigitalOcean:
 
@@ -126,35 +116,17 @@ Github Actions workflow:
 
 ## Access the App
 
-### Via ClusterIP (Internal)
-
-```bash
-kubectl port-forward service/flask-app-service 8080:80
-```
-Access at http://localhost:8080
-
-### Via LoadBalancer (External)
-
-```bash
-kubectl get service flask-app-loadbalancer
-```
-Access at http://209.38.58.58
-
 ### Via Ingress (External via Domain)
 
-1. Get the ingress IP:
+Access at: http://arbi-flask.duckdns.org
 ```bash
-kubectl get ingress flask-app-ingress
+curl http://arbi-flask.duckdns.org
+
+curl http://arbi-flask.duckdns.org/health
+
+curl http://arbi-flask.duckdns.org/api/info
 ```
 
-2. Update DNS to the ingress IP
-
-3. Access at: 
-
-**Deploy:**
-```bash
-kubectl apply -f service-loadbalancer.yaml
-```
 
 ## Additional Info
 **Created by:** Arbi M Ihsan  
