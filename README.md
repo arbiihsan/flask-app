@@ -130,22 +130,22 @@ curl http://arbi-flask.duckdns.org/api/info
 ## Screenshots
 
 ### Build docker image locally and push
-![screenshot](./screenshots/screenshot_build%20docker.png)
-![screenchot](./screenshots/screenshot_push%20docker.png)
+![screenshot](./Screenshots/screenshot_build%20docker.png)
+![screenshot](./Screenshots/screenshot_push%20docker.png)
 
 ### CI/CD pipeline jobs completed
-![screenshot](./screenshots/screenshot_cicd%20pipeline.png)
+![screenshot](./Screenshots/screenshot_cicd%20pipeline.png)
 
 ### Verify new pods are running
-![screenshot](./screenshots/Screenshot%202025-10-19%20034420.png)
+![screenshot](./Screenshots/Screenshot%202025-10-19%20034420.png)
 
 ### Get the Ingress Controller's LoadBalancer IP
-![screenshot](./screenshots/Screenshot%202025-10-19%20034814.png)
+![screenshot](./Screenshots/Screenshot%202025-10-19%20034814.png)
 
 ### Deployed API Usage
-![screenshot](./screenshots/Screenshot%202025-10-19%20020353.png)
-![screenshot](./screenshots/Screenshot%202025-10-19%20020415.png)
-![screenshot](./screenshots/Screenshot%202025-10-19%20020452.png)
+![screenshot](./Screenshots/Screenshot%202025-10-19%20020353.png)
+![screenshot](./Screenshots/Screenshot%202025-10-19%20020415.png)
+![screenshot](./Screenshots/Screenshot%202025-10-19%20020452.png)
 
 
 ## Additional Info
