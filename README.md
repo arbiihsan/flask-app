@@ -134,18 +134,18 @@ curl http://arbi-flask.duckdns.org/api/info
 ![plot](./screenshots/screenshot_push%20docker.png)
 
 ### CI/CD pipeline jobs completed
-![plot](./screenshots/screenshot_cicd%20pipeline.png)
+![screenshot](./screenshots/screenshot_cicd%20pipeline.png)
 
 ### Verify new pods are running
-![plot](./screenshots/Screenshot%202025-10-19%20034420.png)
+![screenshot](./screenshots/Screenshot%202025-10-19%20034420.png)
 
 ### Get the Ingress Controller's LoadBalancer IP
-![plot](./screenshots/Screenshot%202025-10-19%20034814.png)
+![screenshot](./screenshots/Screenshot%202025-10-19%20034814.png)
 
 ### Deployed API Usage
-![plot](./screenshots/Screenshot%202025-10-19%20020353.png)
-![plot](./screenshots/Screenshot%202025-10-19%20020415.png)
-![plot](./screenshots/Screenshot%202025-10-19%20020452.png)
+![screenshot](./screenshots/Screenshot%202025-10-19%20020353.png)
+![screenshot](./screenshots/Screenshot%202025-10-19%20020415.png)
+![screenshot](./screenshots/Screenshot%202025-10-19%20020452.png)
 
 
 ## Additional Info
