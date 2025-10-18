@@ -60,7 +60,7 @@ docker push arbiihsan/flask-app:latest
 ```bash
 doctl auth init
 
-doctl kubernetes cluster kubeconfig save <cluster-name>
+doctl kubernetes cluster kubeconfig save flask-app
 ```
 
 2. **Verify connection:**
@@ -126,6 +126,26 @@ curl http://arbi-flask.duckdns.org/health
 
 curl http://arbi-flask.duckdns.org/api/info
 ```
+
+## Screenshots
+
+### Build docker image locally and push
+![plot](./screenshots/screenshot_build%20docker.png)
+![plot](./screenshots/screenshot_push%20docker.png)
+
+### CI/CD pipeline jobs completed
+![plot](./screenshots/screenshot_cicd%20pipeline.png)
+
+### Verify new pods are running
+![plot](./screenshots/Screenshot%202025-10-19%20034420.png)
+
+### Get the Ingress Controller's LoadBalancer IP
+![plot](./screenshots/Screenshot%202025-10-19%20034814.png)
+
+### Deployed API Usage
+![plot](./screenshots/Screenshot%202025-10-19%20020353.png)
+![plot](./screenshots/Screenshot%202025-10-19%20020415.png)
+![plot](./screenshots/Screenshot%202025-10-19%20020452.png)
 
 
 ## Additional Info
