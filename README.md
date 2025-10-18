@@ -21,7 +21,7 @@ pip install -r requirements.txt
 python app.py
 ```
 
-The app will be available at: `http://localhost:5000`
+locally, the app will be available at: `http://localhost:5000`
 
 ### 2. Test the Endpoints
 
@@ -138,7 +138,7 @@ Access at http://localhost:8080
 ```bash
 kubectl get service flask-app-loadbalancer
 ```
-Access at http://<EXTERNAL-IP>
+Access at http://209.38.58.58
 
 ### Via Ingress (External via Domain)
 
